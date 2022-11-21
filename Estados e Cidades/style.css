@@ -1,0 +1,36 @@
+body{
+    margin-top: 8%;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid rgb(0, 0, 0); 
+    height: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+
+}
+
+::placeholder, #nasc{
+    text-align: center;
+}
+
+#botao{
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+input, select{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#gen{
+    
+}

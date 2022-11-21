@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{ font-family: 'Source Sans Pro', sans-serif;
+}
+#foto{
+    border-radius: 100%;
+    border: solid 5px lightseagreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+body{
+    background-color: #4F4F4F;;
+}
+
+nav{
+    text-align: center;
+    width: calc(100% - 10px);
+}
+
+nav a{
+    display: inline-block;
+    justify-content: center;
+    line-height: 20px;
+    margin: 0 20px;
+    padding: 5px;
+    margin-top: 1%  ;
+
+    
+    
+}
+
+.logo{
+    text-align: center;
+    backdrop-filter: contrast(50%);
+}
+
+a:hover{
+    transform: scale(1.1);
+    background: lightseagreen;
+    color: white;
+    transition: 0.33s all;
+    
+
+}
+
+a{
+   color: white;
+   transition: 0.33s all;
+
+}
+
+h1,h4{
+    margin-top: 2%;
+    color: lightseagreen;
+    text-align: center;
+}
+
+footer{
+    margin-top: 16%;
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+}
+
+.projeto    {
+    border: 2px solid lightseagreen;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    padding: 16px;
+    background-color: lightseagreen;
+ 
+    
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  
+}
+
+.gen-img{
+    text-align: center;
+    margin-top: 5%;
+    width: 80%;
+    border: 5px solid black;
+    align-self: center;
+    justify-self: center;
+    margin:10px;
+}
+
+.cred{
+    color: white;
+    background-color: lightseagreen;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+
+
+
+
